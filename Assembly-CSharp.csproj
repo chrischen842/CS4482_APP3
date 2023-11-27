@@ -58,53 +58,12 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/AssetStore/Cainos/Pixel Art Platformer - Village Props/Script/Elevator.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/SectionHeaderAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/PropertyOrderAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/TabGroupAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/RequiredAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/EnableIfAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Enum.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Pixel Art Platformer - Village Props/Script/MovingPlatform.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/HelpBoxIfAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Pixel Art Platformer - Village Props/Script/BoundingPlatform.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/BoxGroupAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/IndentAttribute.cs" />
     <Compile Include="Assets/AssetStore/Hero Knight - Pixel Art/ColorSwap/ColorSwap_HeroKnight.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/DisableIfAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/FoldoutGroupAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/BlockquoteAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/ShowIfAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/HideIfAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/OnValueChangedAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/DisableInEditModeAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/ReadOnlyAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/HelpBoxAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/HorizontalGroupAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Common/Script/Utils/SecondOrderDynamics.cs" />
     <Compile Include="Assets/AssetStore/Hero Knight - Pixel Art/Demo/HeroKnight.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/LabelTextAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/TitleHeaderAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/AssetsOnlyAttribute.cs" />
     <Compile Include="Assets/AssetStore/Hero Knight - Pixel Art/Demo/DestroyEvent_HeroKnight.cs" />
     <Compile Include="Assets/AssetStore/Hero Knight - Pixel Art/Demo/Sensor_HeroKnight.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/ValidateInputAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/GUIColorAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/ShowInInspectorAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/PropertyGroupAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/DisableLucidEditorAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/GroupAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Pixel Art Platformer - Village Props/Script/Chest.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/HorizontalLineAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/LabelWidthAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/ButtonAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/DisableInPlayModeAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/HideLabelAttribute.cs" />
-    <Compile Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/Runtime/Attributes/HideMonoScript.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets/AssetStore/Cainos/Third Party/Lucid Editor/License.txt" />
-    <None Include="Assets/AssetStore/Cainos/Pixel Art Platformer - Village Props/Changelog.txt" />
     <None Include="Assets/AssetStore/Hero Knight - Pixel Art/ColorSwap/Sprites-ColorSwap.shader" />
   </ItemGroup>
   <ItemGroup>
@@ -792,26 +751,26 @@
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
       <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Extras.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
@@ -852,14 +811,14 @@
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
