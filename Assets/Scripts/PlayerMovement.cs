@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
 
     private enum MovementState { idle, running, jumping, falling, doubleJump };
     private MovementState state;
-    private int jumpCount = 0;  // Counter for the number of jumps
+    private int jumpCount = 0;  
 
     private void Start()
     {
@@ -26,10 +26,9 @@ public class PlayerMovement : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         _Rigidbody2D.velocity = new Vector2(movement.x * moveSpeed, _Rigidbody2D.velocity.y);
 
-        // Jump logic
         if (Input.GetButtonDown("Jump"))
         {
-            if (jumpCount < 2) // Allow double jump
+            if (jumpCount < 2)
             {
                 _Rigidbody2D.velocity = new Vector2(_Rigidbody2D.velocity.x, jumpSpeed);
                 jumpCount++;
@@ -79,7 +78,7 @@ public class PlayerMovement : MonoBehaviour
             state = MovementState.falling;
         }
 
-        if (state != MovementState.doubleJump) // Avoid overriding doubleJump state
+        if (state != MovementState.doubleJump)
         {
             _Animator.SetInteger("state", (int)state);
         }
@@ -87,7 +86,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // Reset jump count when landing
         if (collision.gameObject.tag == "Ground")
         {
             jumpCount = 0;
