@@ -104,7 +104,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  jumpSpeed: 5
+  jumpSpeed: 9
 --- !u!95 &2998571526421365519
 Animator:
   serializedVersion: 5
@@ -185,7 +185,7 @@ Animator:
   m_GameObject: {fileID: 4518872877394861700}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 08e7b4261c8204915b4f0db97d4d55a3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -207,6 +207,7 @@ GameObject:
   - component: {fileID: 5426753738196810648}
   - component: {fileID: 7885241078840187115}
   - component: {fileID: 8570643279676235098}
+  - component: {fileID: 1772876302189992168}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -288,3 +289,16 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8037321115348301869}
   m_Enabled: 1
+--- !u!114 &1772876302189992168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8037321115348301869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f74c5e8119e6478ea71b877e86debe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 8363987743406964314}
