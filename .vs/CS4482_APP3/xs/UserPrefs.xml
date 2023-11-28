@@ -1,14 +1,15 @@
 ﻿<Properties StartupConfiguration="{E5ABF32D-5214-6978-197A-3E8D08DEAD7A}|">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="37" Column="18" IsPinned="True" />
+      <File FileName="Assets/Scripts/PlayerManager.cs" Line="28" Column="39" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6ed4dc04-9285-4291-b079-ffe5a6706e11" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="49795568-4ac0-4d55-b6ff-869de28df044" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerMovement.cs">
-    <Files>
-      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="6" Column="32" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

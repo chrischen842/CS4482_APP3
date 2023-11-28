@@ -12,13 +12,15 @@ public class PlayerMovement : MonoBehaviour
 
     private enum MovementState { idle, running, jumping, falling, doubleJump };
     private MovementState state;
-    private int jumpCount = 0;  
+    private int jumpCount = 0;
 
     private void Start()
     {
         _Rigidbody2D = GetComponent<Rigidbody2D>();
         _SpriteRenderer = GetComponent<SpriteRenderer>();
         _Animator = GetComponent<Animator>();
+
+        _Animator.Play("PlayerSpawn");
     }
 
     private void Update()
@@ -86,7 +88,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Ground")
+        if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("FallingPlatform") || collision.gameObject.CompareTag("Platform"))
         {
             jumpCount = 0;
         }
