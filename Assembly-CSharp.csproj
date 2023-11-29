@@ -60,7 +60,9 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/FallingPlatformController.cs" />
     <Compile Include="Assets/Scripts/PlayerManager.cs" />
+    <Compile Include="Assets/Scripts/GameManager.cs" />
     <Compile Include="Assets/Scripts/SceneController.cs" />
+    <Compile Include="Assets/Scripts/SkinManager.cs" />
     <Compile Include="Assets/Scripts/PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
