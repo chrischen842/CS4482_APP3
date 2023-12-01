@@ -5,47 +5,59 @@ using UnityEditor;
 
 public class SkinManager : MonoBehaviour
 {
-    public SpriteRenderer _SpriteRenderer;
-    public List<Sprite> skins = new List<Sprite>();
-    private int selectedSkin = 0;
-    public GameObject playerSkin;
-    public List<RuntimeAnimatorController> animators;
+    public GameObject[] skins;
+    public GameObject[] names;
+    
+    public int selectedCharacter;
+
+    private void Awake()
+    {
+        selectedCharacter = PlayerPrefs.GetInt("SelectedCharacter", 0);
+
+        foreach(GameObject player in skins)
+        {
+            player.SetActive(false);
+
+        }
+
+        foreach(GameObject name in names)
+        {
+            name.SetActive(false);
+        }
+
+        skins[selectedCharacter].SetActive(true);
+        names[selectedCharacter].SetActive(true);
+    }
 
     public void NextSkin()
     {
-        selectedSkin = selectedSkin + 1;
-        if (selectedSkin == skins.Count)
+        skins[selectedCharacter].SetActive(false);
+        names[selectedCharacter].SetActive(false);
+        selectedCharacter++;
+
+        if(selectedCharacter == skins.Length)
         {
-            selectedSkin = 0;
+            selectedCharacter = 0;
         }
 
-        _SpriteRenderer.sprite = skins[selectedSkin];
-        UpdateAnimatorController();
+        skins[selectedCharacter].SetActive(true);
+        names[selectedCharacter].SetActive(true);
+        PlayerPrefs.SetInt("SelectedCharacter", selectedCharacter);
     }
 
     public void LastSkin()
     {
-        selectedSkin = selectedSkin - 1;
-        if (selectedSkin < 0)
+        skins[selectedCharacter].SetActive(false);
+        names[selectedCharacter].SetActive(false);
+        selectedCharacter--;
+
+        if (selectedCharacter == -1)
         {
-            selectedSkin = skins.Count - 1;
+            selectedCharacter = skins.Length - 1;
         }
 
-        _SpriteRenderer.sprite = skins[selectedSkin];
-        UpdateAnimatorController();
-    }
-
-    private void UpdateAnimatorController()
-    {
-        var playerAnimator = playerSkin.GetComponent<Animator>();
-        if (playerAnimator != null)
-        {
-            playerAnimator.runtimeAnimatorController = animators[selectedSkin];
-        }
-    }
-
-    public void PlayGame()
-    {
-        PrefabUtility.SaveAsPrefabAsset(playerSkin, "Assets/SelectedCharacter.prefab");
+        skins[selectedCharacter].SetActive(true);
+        names[selectedCharacter].SetActive(true);
+        PlayerPrefs.SetInt("SelectedCharacter", selectedCharacter);
     }
 }

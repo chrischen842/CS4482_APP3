@@ -213,3 +213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b16e0fa03fd934780b4a7e6719ac5b8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  platformPrefab: {fileID: 7223906785638877488}
+  PlatformPos:
+  - -11.13419
+  - 3.170076
