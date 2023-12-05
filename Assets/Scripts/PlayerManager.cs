@@ -11,6 +11,8 @@ public class PlayerManager : MonoBehaviour
     public int score = 0;
     public TextMeshProUGUI scoreDisplay;
     public SceneController sceneController;
+    public AudioSource deathSound;
+    public AudioSource collectSound;
 
     public float[] spawnLoc = new float[2];
 
@@ -24,6 +26,9 @@ public class PlayerManager : MonoBehaviour
         _Animator = GetComponent<Animator>();
         _SpriteRenderer = GetComponent<SpriteRenderer>();
 
+
+        deathSound = GameObject.Find("DeathSound").GetComponent<AudioSource>();
+        collectSound = GameObject.Find("CollectSound").GetComponent<AudioSource>();
         scoreDisplay = GameObject.Find("ScoreText").GetComponent<TextMeshProUGUI>();
         sceneController = GameObject.FindObjectOfType<SceneController>();
 
@@ -36,6 +41,7 @@ public class PlayerManager : MonoBehaviour
         if (collision.gameObject.CompareTag("Collectible"))
         {
             collision.gameObject.SetActive(false);
+            collectSound.Play();
             increaseScore();
             setScore();
         }
@@ -43,6 +49,7 @@ public class PlayerManager : MonoBehaviour
         if (collision.gameObject.CompareTag("Hazard") && !isInvincible)
         {
             Debug.Log("Hit");
+            deathSound.Play();
             StartCoroutine(RespawnWithDelay(0f));
         }
 

@@ -1,33 +1,21 @@
 ﻿<Properties StartupConfiguration="{E5ABF32D-5214-6978-197A-3E8D08DEAD7A}|">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="61dc492e-491a-4df8-88a3-c9f3945ef916" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerManager.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerMovement.cs" Line="23" Column="39" IsPinned="True" />
-      <File FileName="Assets/Scripts/FallingPlatformController.cs" Line="35" Column="9" />
-      <File FileName="Assets/RockHeadController.cs" Line="10" Column="31" />
-      <File FileName="Assets/Scripts/PlayerManager.cs" Line="112" Column="1" />
+      <File FileName="Assets/Scripts/PauseController.cs" Line="11" Column="27" />
+      <File FileName="Assets/Scripts/FallingPlatformController.cs" Line="17" Column="37" />
+      <File FileName="Assets/Scripts/PlayerManager.cs" Line="67" Column="65" />
+      <File FileName="Assets/Scripts/SceneController.cs" Line="17" Column="56" />
+      <File FileName="Assets/Scripts/CharacterManager.cs" Line="11" Column="56" />
+      <File FileName="Assets/Scripts/GameEndController.cs" Line="9" Column="52" />
+      <File FileName="Assets/Scripts/LeaderboardController.cs" Line="39" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="CS4482_APP3" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Unity" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7aba9ce6-deb1-4714-8429-8a23b863715a" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

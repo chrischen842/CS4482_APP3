@@ -377,6 +377,7 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/CharacterManager.cs"
 "Assets/Scripts/CharacterSelectManager.cs"
+"Assets/Scripts/DontDestroyAudio.cs"
 "Assets/Scripts/FallingPlatformController.cs"
 "Assets/Scripts/GameEndController.cs"
 "Assets/Scripts/LeaderboardController.cs"

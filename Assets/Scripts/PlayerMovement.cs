@@ -4,6 +4,8 @@ public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float jumpSpeed = 9f;
+    public AudioSource jumpSound;
+    public AudioSource runSound;
 
     private Rigidbody2D _Rigidbody2D;
     private SpriteRenderer _SpriteRenderer;
@@ -13,6 +15,14 @@ public class PlayerMovement : MonoBehaviour
     private enum MovementState { idle, running, jumping, falling, doubleJump };
     private MovementState state;
     private int jumpCount = 0;
+    private float runSoundTimer = 0f;
+    private const float runSoundInterval = 0.5f;
+
+    private void Awake()
+    {
+        jumpSound = GameObject.Find("JumpSound").GetComponent<AudioSource>();
+        runSound = GameObject.Find("RunSound").GetComponent<AudioSource>();
+    }
 
     private void Start()
     {
@@ -26,6 +36,20 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
+
+        if (Mathf.Abs(movement.x) > 0.1f && Mathf.Abs(_Rigidbody2D.velocity.y) < 0.1f)
+        {
+            if (runSoundTimer <= 0f)
+            {
+                runSound.Play();
+                runSoundTimer = runSoundInterval;
+            }
+        }
+        else
+        {
+            runSoundTimer = 0f;
+        }
+
         _Rigidbody2D.velocity = new Vector2(movement.x * moveSpeed, _Rigidbody2D.velocity.y);
 
         if (Input.GetButtonDown("Jump"))
@@ -33,6 +57,8 @@ public class PlayerMovement : MonoBehaviour
             if (jumpCount < 2)
             {
                 _Rigidbody2D.velocity = new Vector2(_Rigidbody2D.velocity.x, jumpSpeed);
+
+                jumpSound.Play();
                 jumpCount++;
 
                 if (jumpCount == 2)
