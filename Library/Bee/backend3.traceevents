@@ -1,0 +1,370 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1701490445214038, "dur":3416, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701490445217524, "dur":99, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701490445217630, "dur":1839, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701490445219470, "dur":4152, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701490445223622, "dur":73, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701490445223771, "dur":540, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1701490445217546, "dur":1928, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701490445219477, "dur":1238, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701490445221173, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701490445221467, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701490445221638, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/CS4482_APP3/Library/Bee/PlayerScriptAssemblies/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701490445221751, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701490445221849, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701490445221918, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701490445221974, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701490445222083, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701490445222206, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/Player041a6675-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1701490445222375, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/BuildPipeline/Bee.CSharpSupport.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701490445222478, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1701490445222544, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701490445222752, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Api.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701490445222809, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701490445222910, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Linker.Api.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701490445220794, "dur":2169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1701490445223023, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701490445223182, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701490445223253, "dur":362, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701490445217549, "dur":1929, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701490445219480, "dur":922, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701490445220402, "dur":405, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701490445220808, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1701490445220807, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1701490445220903, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701490445220985, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1701490445221085, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701490445221182, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701490445221181, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701490445221237, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701490445221493, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701490445221614, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/CS4482_APP3/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701490445221613, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701490445221668, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701490445221827, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701490445221826, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701490445221895, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701490445222047, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701490445222116, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701490445222116, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701490445222169, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701490445222227, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701490445222226, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701490445222296, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701490445222401, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701490445222520, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701490445222520, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701490445222596, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701490445222706, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701490445222772, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1701490445222824, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701490445223009, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1701490445223064, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701490445223185, "dur":458, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701490445217560, "dur":1923, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701490445219487, "dur":968, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701490445220455, "dur":316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701490445220784, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701490445220914, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701490445221018, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1701490445221105, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701490445221357, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701490445221491, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/CS4482_APP3/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701490445221491, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701490445221579, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701490445221710, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701490445221796, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701490445221795, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701490445221850, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701490445222041, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701490445222182, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701490445222296, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701490445222400, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701490445222544, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701490445222543, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701490445222598, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701490445222702, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701490445222763, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1701490445222823, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701490445222966, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701490445223049, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1701490445223112, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701490445223210, "dur":436, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701490445217567, "dur":1924, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701490445219494, "dur":982, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701490445220476, "dur":291, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701490445220839, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1701490445220838, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1701490445220931, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701490445221086, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701490445221197, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701490445221197, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701490445221261, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701490445221323, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701490445221373, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701490445221479, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/CS4482_APP3/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701490445221478, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701490445221530, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701490445221609, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/CS4482_APP3/Library/Bee/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701490445221609, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701490445221668, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701490445221848, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701490445221940, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701490445221940, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701490445221992, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701490445222170, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701490445222307, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701490445222427, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701490445222496, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701490445222496, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701490445222567, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701490445222660, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701490445222659, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701490445222729, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701490445222901, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701490445223020, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/level7" }}
+,{ "pid":12345, "tid":4, "ts":1701490445223073, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701490445223172, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1701490445223259, "dur":357, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701490445217574, "dur":1924, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701490445219500, "dur":994, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701490445220494, "dur":297, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701490445220818, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1701490445220922, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701490445221017, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp/StagingArea/WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":5, "ts":1701490445221017, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3.exe" }}
+,{ "pid":12345, "tid":5, "ts":1701490445221108, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701490445221232, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701490445221232, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701490445221285, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701490445221399, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701490445221503, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701490445221638, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/CS4482_APP3/Library/Bee/PlayerScriptAssemblies/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701490445221637, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701490445221708, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701490445221853, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701490445221970, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701490445221970, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701490445222035, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701490445222168, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701490445222243, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701490445222243, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701490445222298, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701490445222428, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701490445222543, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701490445222653, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701490445222652, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701490445222739, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701490445222738, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701490445222845, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701490445223012, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1701490445223073, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701490445223188, "dur":429, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701490445217580, "dur":1924, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701490445219507, "dur":974, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701490445220481, "dur":334, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701490445220816, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1701490445220919, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701490445221014, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701490445221013, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701490445221103, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701490445221202, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701490445221202, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701490445221349, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701490445221465, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/CS4482_APP3/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701490445221464, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701490445221529, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701490445221637, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701490445221847, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701490445222002, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701490445222176, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701490445222314, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701490445222429, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701490445222484, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701490445222483, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701490445222544, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701490445222704, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701490445222824, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701490445222964, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701490445223116, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701490445223226, "dur":419, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701490445217586, "dur":1924, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701490445219515, "dur":954, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701490445220469, "dur":285, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701490445220829, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1701490445220933, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701490445221024, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1701490445221023, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1701490445221099, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701490445221267, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701490445221374, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701490445221536, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701490445221671, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701490445221832, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701490445221832, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701490445221897, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701490445221984, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701490445221984, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701490445222038, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701490445222105, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701490445222104, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701490445222169, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701490445222231, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701490445222231, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701490445222385, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701490445222472, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701490445222472, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701490445222542, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701490445222702, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701490445222779, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1701490445222840, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701490445222971, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701490445223044, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/level5" }}
+,{ "pid":12345, "tid":7, "ts":1701490445223112, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701490445223217, "dur":415, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701490445217593, "dur":1925, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701490445219520, "dur":965, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701490445220485, "dur":334, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701490445220820, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1701490445220819, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1701490445220928, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701490445221087, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701490445221262, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701490445221374, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701490445221502, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/CS4482_APP3/Library/Bee/PlayerScriptAssemblies/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701490445221501, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701490445221555, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701490445221669, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/CS4482_APP3/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701490445221669, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701490445221722, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701490445221851, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701490445221901, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701490445222038, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701490445222174, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701490445222310, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701490445222404, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701490445222404, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701490445222461, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701490445222640, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701490445222769, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":8, "ts":1701490445222824, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701490445222969, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701490445223055, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1701490445223112, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701490445223207, "dur":433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701490445217604, "dur":1918, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701490445219524, "dur":954, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701490445220478, "dur":247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701490445220811, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701490445221004, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701490445221177, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701490445221282, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701490445221642, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/CS4482_APP3/Library/Bee/PlayerScriptAssemblies/Cinemachine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701490445221758, "dur":135, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"ProjectSettings/BurstAotSettings_StandaloneWindows.json" }}
+,{ "pid":12345, "tid":9, "ts":1701490445221894, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/CS4482_APP3/Library/PackageCache/com.unity.burst@1.8.8/.Runtime/bcl.exe" }}
+,{ "pid":12345, "tid":9, "ts":1701490445220752, "dur":1235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":9, "ts":1701490445221987, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1701490445222291, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701490445222291, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":9, "ts":1701490445223407, "dur":175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701490445217612, "dur":1915, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701490445219530, "dur":943, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701490445220474, "dur":286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701490445220836, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1701490445220935, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701490445221028, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1701490445221027, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1701490445221177, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701490445221177, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701490445221232, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701490445221409, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701490445221530, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701490445221598, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/CS4482_APP3/Library/Bee/PlayerScriptAssemblies/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701490445221598, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701490445221657, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701490445221787, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701490445221787, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701490445221849, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701490445222004, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701490445222100, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701490445222100, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701490445222168, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701490445222223, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701490445222223, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701490445222294, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701490445222374, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701490445222374, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701490445222428, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701490445222489, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701490445222489, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701490445222542, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701490445222649, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701490445222649, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1701490445222704, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701490445222827, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701490445222987, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701490445223163, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1701490445223250, "dur":363, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701490445217618, "dur":1915, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701490445219538, "dur":164, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701490445219702, "dur":1072, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701490445220848, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1701490445220951, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701490445221012, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701490445221011, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701490445221096, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701490445221259, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701490445221360, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701490445221475, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/CS4482_APP3/Library/Bee/PlayerScriptAssemblies/Cinemachine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701490445221475, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701490445221529, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701490445221638, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701490445221754, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/CS4482_APP3/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701490445221753, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701490445221815, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701490445221971, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701490445222112, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701490445222112, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701490445222176, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701490445222295, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701490445222405, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701490445222511, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701490445222511, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1701490445222576, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701490445222708, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701490445222827, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1701490445222887, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701490445223076, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1701490445223264, "dur":354, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701490445217625, "dur":1916, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701490445219541, "dur":1235, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701490445220815, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1701490445220895, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701490445220978, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1701490445221079, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701490445221209, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-win32/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701490445221209, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701490445221262, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701490445221380, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701490445221483, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/CS4482_APP3/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701490445221482, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701490445221583, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701490445221781, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701490445221780, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701490445221848, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701490445221947, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701490445221947, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1701490445222002, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701490445222172, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701490445222294, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701490445222389, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701490445222512, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701490445222672, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701490445222743, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":12, "ts":1701490445222798, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701490445222895, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/TempBuild/CS4482_APP3_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1701490445222960, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701490445223112, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1701490445223200, "dur":442, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701490445225162, "dur":300, "ph":"X", "name": "ProfilerWriteOutput" }
+,

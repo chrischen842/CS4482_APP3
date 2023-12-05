@@ -1,9 +1,13 @@
 using UnityEngine;
 using TMPro;
 using System.Collections;
+using UnityEngine.UI;
 
 public class PlayerManager : MonoBehaviour
 {
+    public float fadeDuration = 0.2f; // Duration of the fade-in effect
+    public float displayTime = 2f; // How long to display 'You Win' before loading the new scene
+
     public int score = 0;
     public TextMeshProUGUI scoreDisplay;
     public SceneController sceneController;
@@ -13,6 +17,7 @@ public class PlayerManager : MonoBehaviour
     private Animator _Animator;
     private SpriteRenderer _SpriteRenderer;
     private bool isInvincible = false;
+    private Image youWinScreen;
 
     private void Awake()
     {
@@ -61,6 +66,20 @@ public class PlayerManager : MonoBehaviour
             Debug.Log("Loaded");
             UpdateScore(PlayerPrefs.GetString("PlayerName"), score);
             sceneController.LoadScene("Level3");
+        }
+
+        if (collision.gameObject.CompareTag("Level3"))
+        {
+            Debug.Log("Loaded");
+            UpdateScore(PlayerPrefs.GetString("PlayerName"), score);
+            sceneController.LoadScene("Level4");
+        }
+
+        if (collision.gameObject.CompareTag("Finish"))
+        {
+            Debug.Log("Loaded");
+            youWinScreen = GameObject.Find("YouWin").GetComponent<Image>(); ;
+            StartCoroutine(EndLevelSequence());
         }
 
     }
@@ -128,5 +147,28 @@ public class PlayerManager : MonoBehaviour
             _SpriteRenderer.color = new Color(_SpriteRenderer.color.r, _SpriteRenderer.color.g, _SpriteRenderer.color.b, _SpriteRenderer.color.a == 1f ? 0.5f : 1f);
             yield return new WaitForSeconds(0.1f);
         }
+    }
+
+    private IEnumerator EndLevelSequence()
+    {
+        Debug.Log("You Win!");
+        UpdateScore(PlayerPrefs.GetString("PlayerName"), score); // Assuming score is a variable you have access to
+
+        // Start fading in the 'You Win' screen
+        float elapsedTime = 0;
+        Color color = youWinScreen.color;
+        while (elapsedTime < fadeDuration)
+        {
+            elapsedTime += Time.deltaTime;
+            color.a = Mathf.Clamp01(elapsedTime / fadeDuration);
+            youWinScreen.color = color;
+            yield return null;
+        }
+
+        // Wait for displayTime seconds on the 'You Win' screen
+        yield return new WaitForSeconds(displayTime);
+
+        // Load the new scene
+        sceneController.LoadScene("GameEnd");
     }
 }

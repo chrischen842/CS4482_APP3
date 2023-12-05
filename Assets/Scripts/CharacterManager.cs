@@ -13,6 +13,7 @@ public class CharacterManager : MonoBehaviour
 
     private void Awake()
     {
+        playerName = GameObject.Find("Player").GetComponent<TextMeshProUGUI>();
         playerName.text = "Player: " + PlayerPrefs.GetString("PlayerName");
         characterIndex = PlayerPrefs.GetInt("SelectedCharacter", 0);
         Instantiate(playerPrefabs[characterIndex], lastCheckPointPos, Quaternion.identity);
