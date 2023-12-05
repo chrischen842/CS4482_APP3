@@ -175,6 +175,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   jumpSpeed: 9
+  jumpSound: {fileID: 0}
+  runSound: {fileID: 0}
 --- !u!114 &2943953588784815678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,12 +189,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30d02c0a2c6f84baa97ab55d669891c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fadeDuration: 0.2
+  displayTime: 2
   score: 0
   scoreDisplay: {fileID: 0}
   sceneController: {fileID: 0}
+  deathSound: {fileID: 0}
+  collectSound: {fileID: 0}
   spawnLoc:
-  - -16.71
-  - -2.9
+  - -13
+  - -3
 --- !u!95 &6344097957103194329
 Animator:
   serializedVersion: 5
