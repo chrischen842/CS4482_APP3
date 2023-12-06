@@ -22,8 +22,6 @@ ScriptsOnlyBuild:
     - UnityEngine.U2D.Animation.SpriteSkinUpdateHelper
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    Unity.2D.SpriteShape.Runtime.dll:
-    - UnityEngine.U2D.SpriteShapeDefaultCreator
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridBrushEditor
@@ -268,9 +266,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7126}
     - Class: 114
-      Script: {instanceID: 7532}
+      Script: {instanceID: 7534}
     - Class: 114
-      Script: {instanceID: 7614}
+      Script: {instanceID: 7616}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -323,9 +321,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7126}
     - Class: 114
-      Script: {instanceID: 7532}
+      Script: {instanceID: 7534}
     - Class: 114
-      Script: {instanceID: 7614}
+      Script: {instanceID: 7616}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -376,9 +374,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7126}
     - Class: 114
-      Script: {instanceID: 7532}
+      Script: {instanceID: 7534}
     - Class: 114
-      Script: {instanceID: 7614}
+      Script: {instanceID: 7616}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -459,13 +457,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7126}
     - Class: 114
-      Script: {instanceID: 7532}
+      Script: {instanceID: 7534}
     - Class: 114
-      Script: {instanceID: 7614}
+      Script: {instanceID: 7616}
     - Class: 114
-      Script: {instanceID: 8084}
+      Script: {instanceID: 8086}
     - Class: 114
-      Script: {instanceID: 8558}
+      Script: {instanceID: 8560}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -560,13 +558,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7126}
     - Class: 114
-      Script: {instanceID: 7532}
+      Script: {instanceID: 7534}
     - Class: 114
-      Script: {instanceID: 7614}
+      Script: {instanceID: 7616}
     - Class: 114
-      Script: {instanceID: 8084}
+      Script: {instanceID: 8086}
     - Class: 114
-      Script: {instanceID: 8558}
+      Script: {instanceID: 8560}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -661,15 +659,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7126}
     - Class: 114
-      Script: {instanceID: 7532}
+      Script: {instanceID: 7534}
     - Class: 114
-      Script: {instanceID: 7614}
+      Script: {instanceID: 7616}
     - Class: 114
-      Script: {instanceID: 8084}
+      Script: {instanceID: 8086}
     - Class: 114
-      Script: {instanceID: 8558}
+      Script: {instanceID: 8560}
     - Class: 114
-      Script: {instanceID: 9346}
+      Script: {instanceID: 9348}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -762,15 +760,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7126}
     - Class: 114
-      Script: {instanceID: 7532}
+      Script: {instanceID: 7534}
     - Class: 114
-      Script: {instanceID: 7614}
+      Script: {instanceID: 7616}
     - Class: 114
-      Script: {instanceID: 8084}
+      Script: {instanceID: 8086}
     - Class: 114
-      Script: {instanceID: 8558}
+      Script: {instanceID: 8560}
     - Class: 114
-      Script: {instanceID: 9346}
+      Script: {instanceID: 9348}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -865,15 +863,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7126}
     - Class: 114
-      Script: {instanceID: 7532}
+      Script: {instanceID: 7534}
     - Class: 114
-      Script: {instanceID: 7614}
+      Script: {instanceID: 7616}
     - Class: 114
-      Script: {instanceID: 8084}
+      Script: {instanceID: 8086}
     - Class: 114
-      Script: {instanceID: 8558}
+      Script: {instanceID: 8560}
     - Class: 114
-      Script: {instanceID: 9346}
+      Script: {instanceID: 9348}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -944,13 +942,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6886}
     - Class: 114
-      Script: {instanceID: 7532}
+      Script: {instanceID: 7510}
     - Class: 114
-      Script: {instanceID: 7614}
+      Script: {instanceID: 7534}
     - Class: 114
-      Script: {instanceID: 8084}
+      Script: {instanceID: 7616}
     - Class: 114
-      Script: {instanceID: 32456}
+      Script: {instanceID: 8086}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1920,6 +1918,12 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerStay2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DontDestroyAudio
+  - hash:
+      serializedVersion: 2
       Hash: 751d867553f413cde86fe5db0b02780d
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
@@ -2320,12 +2324,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: DontDestroyAudio
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
@@ -2337,4 +2335,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level3.unity
   - Assets/Scenes/Level4.unity
   - Assets/Scenes/GameEnd.unity
-  playerPath: /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/App3Build/CS4482_APP3.exe
+  playerPath: /Users/chrischen/Documents/UWO/4th Year/CS4482/App/App3/SkywardSprint/SkywardSprint/CS4482_APP3.exe
